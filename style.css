@@ -312,6 +312,16 @@ nav ul li a:hover:after {
         width: 70%;
     }
 }
+@media (max-width: 390px){
+  .content h1{
+    line-height: 65px;
+  }
+  .content{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
 
 /* ============================================================== Personal ====================================================== */
 #personal{
