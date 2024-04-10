@@ -314,7 +314,7 @@ nav ul li a:hover:after {
 }
 @media (max-width: 390px){
   .content h1{
-    line-height: 65px;
+    line-height: 50px;
   }
   .content{
     justify-content: center;
