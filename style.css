@@ -314,7 +314,7 @@ nav ul li a:hover:after {
 }
 @media (max-width: 390px){
   .content h1{
-    line-height: 50px;
+    line-height: 65px;
   }
   .content{
     justify-content: center;
@@ -400,6 +400,27 @@ nav ul li a:hover:after {
         width: 80%;
     }
 }
+@media (max-width: 390px){
+  .content-image{
+    width: 100%;
+  }
+  .content-image img{
+    width: 120%;
+    height: 120%;
+  }
+  .blog-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .blog-content h1{
+    font-size: 3rem;
+    line-height: 50px;
+  }
+  .blog-content p{
+    font-size: 1rem;
+  }
+}
 
 /* ============================================== Personal Blog ================================== */
 #personal-blog{
@@ -483,6 +504,23 @@ nav ul li a:hover:after {
     .sub-image .img{
         width: 70%;
     }
+}
+@media (max-width: 390px){
+  .main-image{
+
+    width: 90%;
+  }
+  .sub-image{
+
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-image .img{
+
+    width: 90%;
+  }
 }
 
 /* ===================================================== Game BLog ================================ */
@@ -602,6 +640,16 @@ nav ul li a:hover:after {
     text-decoration: none;
     transition: all ease 0.3s;
   }
+  @media (max-width:390px){
+    .news-content1{
+      width: 95%;
+    }
+    .news-card{
+
+      width: 100%;
+      gap: 0;
+    }
+  }
   
   /*=============================================== NEW2 ======================================================*/
   
@@ -684,6 +732,12 @@ nav ul li a:hover:after {
     }
     
   }
+  @media only screen and (max-width: 390px){
+    .second-news-card{     
+      width: 80%;
+
+    }
+  }
 
 /* ============================================================= ABOUT ====================================================== */
 .about-oage{
@@ -762,6 +816,21 @@ nav ul li a:hover:after {
     width: 80%;
   }
   
+}
+@media (max-width: 390px){
+  .about-content{
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .about-content h1{
+    line-height: 60px;
+    font-size: 3rem;
+  }
+  .about-content p{
+    font-size: 1rem;
+  }
 }
 
 /*=============================================== Footer ==========================================*/
