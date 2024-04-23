@@ -756,7 +756,7 @@ nav ul li a:hover:after {
     width: 100%;
     height: 500px;
   }
-  .video-container video{
+  .video-container iframe{
     width: 100%;
     height: 100%;
   }
