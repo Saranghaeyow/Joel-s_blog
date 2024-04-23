@@ -673,6 +673,102 @@ nav ul li a:hover:after {
   }
 }
 
+  /*============================================================ GAME BLOG ============================================*/
+  #blog{
+    width: 100%;
+    height: 100%;
+  }
+  .blog-container{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(game_image/background.gif);
+    text-align: center;
+    align-items: center;
+    padding: 50px 0;
+  
+  }
+  .blog-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: #ffbd27; */
+  }
+  .blog-card1{
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: normal;
+    align-items: center;
+    /* background-color: #3ca0e7; */
+  }
+  .blog-card1 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+  }
+  .blog-card2{
+    width: 800px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+    display: flex;
+    flex-direction: column;
+    align-self: normal;
+    align-items: center;
+    text-align: center;
+    /* background-color: #088178; */
+  }
+  .blog-card2 p{
+    color: #fff;
+  }
+  .blog-card3{
+    width: 90%;
+    padding: 1.5rem;
+    
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+    display: flex;
+    flex-direction: column;
+    align-self: normal;
+    align-items: center;
+    text-align: center;
+    /* background-color: #088178; */
+  }
+  .blog-card3 p{
+    color: #fff;
+  }
+  .video-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+    /* background-color: #ffbd27; */
+  }
+  .video-container{
+    width: 100%;
+    height: 500px;
+  }
+  .video-container video{
+    width: 100%;
+    height: 100%;
+  }
+  @media (max-width: 1300px){
+    .blog-card1{
+      width: 80%;
+    }
+    .blog-card2{
+      width: 80%;
+    }
+  }
+
 /*=============================================== Footer ==========================================*/
 #newsletter{
     width: 100%;
