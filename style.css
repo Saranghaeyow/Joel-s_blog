@@ -453,6 +453,9 @@ nav ul li a:hover:after {
   .about-image{
     width: 80%;
   }
+  .about-content{
+    width: 90%;
+  }
   
 }
 @media (max-width: 390px){
