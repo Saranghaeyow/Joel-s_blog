@@ -562,6 +562,117 @@ nav ul li a:hover:after {
   }
 }
 
+  /*============================================================ BLOGS ============================================*/
+
+  #BLOGS{
+    width: 100%;
+    height: 100%;
+    
+}
+.BLOG-container{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.BLOG-container h1{
+  color: #000;
+  font-size: 5.5rem;
+  margin-top: 5rem;
+  text-shadow: 0px 0px 8px #1a1919,
+               0px 0px 12px #1a1919,
+               0px 0px 16px #1a1919;
+}
+.BLOG-card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.BLOG-card{
+  height: 100%;
+  width: 30%;
+  padding: 1.5rem;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-self: normal;
+  gap: 1rem;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  align-items: center;
+  
+}
+.pic-container .pic img{
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+.pic-container .p-container{
+  width: 100%;
+  margin-top: 1rem;
+  height: 250px;
+  align-items: center;
+  text-align: center;
+}
+.p-container h3{
+  color: #000;
+  font-size: 1.5rem;
+}
+.BLOG-card .card-pa{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.BLOG-card p{
+  color: grey;
+  font-size: 1.1rem;
+}
+.bton {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  display: inline-block;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+  background: #000;
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 6.30rem;
+  text-align: center;
+}
+.bton:hover {
+  background: transparent;
+  border-color: #000;
+  color: #000;
+}
+@media (max-width: 1050px){
+  .BLOG-card{
+    width: 45%;
+  }
+}
+@media (max-width: 800px){
+  .BLOG-container h1{
+    font-size: 5rem;
+  }
+  .BLOG-card{
+    width: 80%;
+  }
+}
+@media (max-width: 450px){
+  .skill-container h1{
+    font-size: 4rem;
+  }
+}
+
 /*=============================================== Footer ==========================================*/
 #newsletter{
     width: 100%;
