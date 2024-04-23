@@ -264,7 +264,8 @@ nav ul li a:hover:after {
         font-weight: 900;
         line-height: 90px;
         text-transform: inherit;
-        width: 70%;
+        width: 80%;
+        line-height: 60px;
     }
 }
 @media (max-width: 390px){
