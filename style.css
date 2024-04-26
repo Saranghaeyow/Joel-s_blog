@@ -720,7 +720,7 @@ nav ul li a:hover:after {
     display: flex;
     flex-direction: column;
     align-self: normal;
-    align-items: center;
+    /* align-items: center; */
     text-align: justify;
     /* background-color: #088178; */
   }
