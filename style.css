@@ -721,7 +721,7 @@ nav ul li a:hover:after {
     flex-direction: column;
     align-self: normal;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     /* background-color: #088178; */
   }
   .blog-card2 p{
